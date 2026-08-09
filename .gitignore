@@ -6,15 +6,12 @@
 test_snapshots/
 
 # Environment / secrets
-.env
-.env.*
 !.env.example
 !.env.local.example
 frontend/.env.local
 
 # IDE
 .idea/
-.vscode/
 *.iml
 
 # OS
@@ -42,3 +39,5 @@ mobile/ios/
 *.p12
 *.key
 *.mobileprovision
+config.bat
+node_modules
